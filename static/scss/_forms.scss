@@ -22,6 +22,8 @@ input{
 }
 
 
+
+
 input[type="checkbox"]{
     background-color: red;
 	border: 0;
@@ -31,6 +33,23 @@ input[type="checkbox"]{
 	height: 8px;
 	width: 8px;  
 }
+
+
+
+input[type="checkbox"] + label:before{
+			background-color: #AD208C;
+			border: 0;
+			content: "";
+			display: inline-block;
+			font-size: 20px;
+			height: 8px;
+			width: 8px;
+			border-radius: 50px;
+			margin: -3px 10px 0 0;
+			vertical-align: middle;
+
+	} 
+
 
 label.check{
     display: inline;
@@ -43,15 +62,32 @@ label.check{
 
 
 
+
 button{
     background-color: tomato;
     color:#fff;
     width: 300px;
 }
 
-.check-block{
-    width:100%;
-    display: block;
-    background:#ccc;
-    min-height: 120px;
+// .check-block{
+//     width:100%;
+//     display: block;
+//     background:#ccc;
+//     min-height: 120px;
+// }
+
+
+.btn{
+    padding: 20px 100px;
+    text-align: center;
+    background: tomato;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    border:1px solid tomato;
+    margin: 0 auto;
+    cursor: pointer;
 }

@@ -77,7 +77,7 @@ var Nav = function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 12
         }
-      }, _react2.default.createElement('div', { className: 'container', __source: {
+      }, _react2.default.createElement('div', { className: 'header-container', __source: {
           fileName: _jsxFileName,
           lineNumber: 13
         }

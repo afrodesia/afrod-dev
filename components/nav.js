@@ -10,7 +10,7 @@ class Nav extends Component {
   render () {
     return (
       <section className="Nav">
-        <div className="container">
+        <div className="header-container">
           <nav>
             <div className="logo">
               <img className="img" src="/../static/img/afrodesiamedia.svg" width="30" />

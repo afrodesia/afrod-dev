@@ -1,0 +1,51 @@
+// FRONT PAGE HTML FRAGMENT 
+
+.afrodesia-masthead{
+    background: #bcbcbc;
+    height:900px;
+    background-image: url(./static/img/home-bg-afrodesiamedia.png);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    max-height: 800px;
+    text-align: center;
+    margin-bottom: 20px;
+
+    h1{
+        width: 40%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+
+    }
+    h2{
+        padding-bottom: 20px;
+    }
+}
+.preamble{
+  font-family: 'Poppins', sans-serif;
+    h2{
+        padding-bottom: 0px;
+        text-align: center;
+        width:40%;
+        margin: 0 auto;
+        line-height: 40px;
+    }
+    .grey-zone{
+      font-family: 'Poppins', sans-serif;
+        margin-top:100px; 
+        background-color: #D8D8D8;
+        min-height: 460px;
+
+        
+        article p{
+            padding-top: 30px;
+            line-height: 46px;
+            font-size: 1.1rem;
+        }
+
+        .icon{
+            width:60px;
+            margin:0 auto;
+        }
+    }
+}

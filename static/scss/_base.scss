@@ -1,0 +1,40 @@
+body{
+    // font-family: 'moderneregular' !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    background: #F5F5F5;
+}
+span{ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+    margin-top:20px;
+    font-size: 3rem;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+    font-size: 1.9rem;
+    max-width: 55%;
+}
+
+
+a{
+  cursor: pointer;
+  
+}
+.header-container,
+.container{
+    max-width:90%;
+    margin:0px auto;
+    
+}
