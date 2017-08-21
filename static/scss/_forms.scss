@@ -24,41 +24,41 @@ input{
 
 
 
-input[type="checkbox"]{
-    background-color: red;
-	border: 0;
-    font-size: 1rem;
-	display: inline-block;
-	font-size: 20px;
-	height: 8px;
-	width: 8px;  
-}
+// input[type="checkbox"]{
+//     background-color: red;
+// 	border: 0;
+//     font-size: 1rem;
+// 	display: inline-block;
+// 	font-size: 20px;
+// 	height: 8px;
+// 	width: 8px;  
+// }
 
 
 
-input[type="checkbox"] + label:before{
-			background-color: #AD208C;
-			border: 0;
-			content: "";
-			display: inline-block;
-			font-size: 20px;
-			height: 8px;
-			width: 8px;
-			border-radius: 50px;
-			margin: -3px 10px 0 0;
-			vertical-align: middle;
+// input[type="checkbox"] + label:before{
+// 			background-color: #AD208C;
+// 			border: 0;
+// 			content: "";
+// 			display: inline-block;
+// 			font-size: 20px;
+// 			height: 8px;
+// 			width: 8px;
+// 			border-radius: 50px;
+// 			margin: -3px 10px 0 0;
+// 			vertical-align: middle;
 
-	} 
+// 	} 
 
 
-label.check{
-    display: inline;
-    text-transform: uppercase;
-    font-size: 1rem;
-    vertical-align: center;
-    margin-right: 50px;
+// label.check{
+//     display: inline;
+//     text-transform: uppercase;
+//     font-size: 1rem;
+//     vertical-align: center;
+//     margin-right: 50px;
     
-}
+// }
 
 
 

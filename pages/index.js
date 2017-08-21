@@ -3,6 +3,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import Head from 'next/head'
 import logo from '../components/afrodesiamedia.svg'
+import clipboard from '../static/img/clipboard.svg'
 
 
 export default() =>
@@ -36,7 +37,7 @@ export default() =>
                 <div className="container paddingTop100 grid">
                     <article className="grid__col grid__col--1-of-3">
                         <div className="grid__col--centered icon">
-                            
+                             <img className="img" src="/../static/img/clipboard.svg" width="100" />
                         </div>
                         <p>
                         Good design is crafting the User experience in simple path to get them to the things that matters most on your website.
@@ -44,7 +45,7 @@ export default() =>
                     </article>
                     <article className="grid__col grid__col--1-of-3">
                         <div className="grid__col--centered icon">
-                         
+                            <img className="img" src="/../static/img/Pen.svg" width="24" />
                         </div>
                         <p>
                         Good content enhances the direction you want to prioritize for your consumers to flow thru the website experience.
@@ -52,7 +53,7 @@ export default() =>
                     </article>
                     <article className="grid__col grid__col--1-of-3">
                         <div className="grid__col--centered icon">
-                          
+                            <img className="img" src="/../static/img/Tablet.svg" width="48" />
                         </div>
                         <p>
                         There are things that good design can clear up and implement; are good visual communication and heigharchy.

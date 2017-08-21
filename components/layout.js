@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import Nav from '../components/nav'
+// import Header from '../components/header'
 
 import stylesheet from '../static/scss/index.scss'
 

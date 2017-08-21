@@ -46,8 +46,8 @@ var _index2 = _interopRequireDefault(_index);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/Users/kentorry/Server/client-server/CLIENT-WORK/afrodesiamedia/SERVER/afrodesiamedia-next/components/layout.js';
-
+var _jsxFileName = '/Users/kentorry/Server/CLIENT-SERVER/CLIENT-WORK/afrodesiamedia/SERVER/afrodesiamedia-next/components/layout.js';
+// import Header from '../components/header'
 
 var Layout = function (_Component) {
   (0, _inherits3.default)(Layout, _Component);
@@ -70,41 +70,41 @@ var Layout = function (_Component) {
       return _react2.default.createElement('div', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 18
         }
       }, _react2.default.createElement(_head2.default, { title: title, description: description, __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 19
         }
       }, _react2.default.createElement('meta', { charSet: 'utf-8', __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 21
         }
       }), _react2.default.createElement('meta', { name: 'viewport', content: 'initial-scale=1.0, width=device-width', __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 22
         }
       }), _react2.default.createElement('style', { dangerouslySetInnerHTML: { __html: _index2.default }, __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 23
         }
       })), _react2.default.createElement(_nav2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 25
         }
       }), children, _react2.default.createElement('footer', { id: '', className: 'footer', __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 28
         }
       }, _react2.default.createElement('div', { className: 'container paddingTop100 grid', __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 29
         }
       }, _react2.default.createElement('span', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 30
         }
       }, 'afrodesiamedia | 2017'))));
     }

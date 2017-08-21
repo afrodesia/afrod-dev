@@ -38,7 +38,7 @@ var _link2 = _interopRequireDefault(_link);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/Users/kentorry/Server/client-server/CLIENT-WORK/afrodesiamedia/SERVER/afrodesiamedia-next/components/nav.js';
+var _jsxFileName = '/Users/kentorry/Server/CLIENT-SERVER/CLIENT-WORK/afrodesiamedia/SERVER/afrodesiamedia-next/components/nav.js';
 
 
 var logo = function logo(props) {
@@ -77,121 +77,124 @@ var Nav = function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 12
         }
-      }, _react2.default.createElement('div', { className: 'header-container', __source: {
+      }, _react2.default.createElement('header', { className: '', __source: {
           fileName: _jsxFileName,
           lineNumber: 13
         }
-      }, _react2.default.createElement('nav', {
-        __source: {
+      }, _react2.default.createElement('div', { className: 'header-container inner', __source: {
           fileName: _jsxFileName,
           lineNumber: 14
         }
-      }, _react2.default.createElement('div', { className: 'logo', __source: {
+      }, _react2.default.createElement('nav', { className: '', __source: {
           fileName: _jsxFileName,
           lineNumber: 15
         }
-      }, _react2.default.createElement('img', { className: 'img', src: '/../static/img/afrodesiamedia.svg', width: '30', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        }
-      }), _react2.default.createElement(_link2.default, { href: '/', __source: {
+      }, _react2.default.createElement(_link2.default, { href: '/', __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         }
-      }, _react2.default.createElement('a', {
-        __source: {
+      }, _react2.default.createElement('div', { className: 'logo', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        }
+      }, _react2.default.createElement('img', { className: 'img', src: '/../static/img/afrodesiamedia.svg', width: '30', __source: {
           fileName: _jsxFileName,
           lineNumber: 19
         }
-      }, _react2.default.createElement('div', {
+      }), _react2.default.createElement('a', {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
         }
-      }, _react2.default.createElement('span', { className: 'white', __source: {
+      }, _react2.default.createElement('div', {
+        __source: {
           fileName: _jsxFileName,
           lineNumber: 21
         }
-      }, 'afrodesia'), _react2.default.createElement('span', { className: 'gray', __source: {
+      }, _react2.default.createElement('span', { className: 'white', __source: {
           fileName: _jsxFileName,
           lineNumber: 22
+        }
+      }, 'afrodesia'), _react2.default.createElement('span', { className: 'gray', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
         }
       }, 'media'))))), _react2.default.createElement('ul', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 29
         }
       }, _react2.default.createElement('li', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 30
         }
       }, _react2.default.createElement(_link2.default, { href: '/', __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 30
         }
       }, _react2.default.createElement('a', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 30
         }
       }, 'home'))), _react2.default.createElement('li', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 31
         }
       }, _react2.default.createElement(_link2.default, { href: '/about', __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 31
         }
       }, _react2.default.createElement('a', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 31
         }
       }, 'about')), ' '), _react2.default.createElement('li', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 32
         }
       }, _react2.default.createElement(_link2.default, { href: '/getting-started', __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 32
         }
       }, _react2.default.createElement('a', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 32
         }
       }, 'getting started'))), _react2.default.createElement('li', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 34
         }
       }, _react2.default.createElement(_link2.default, { href: '/portfolio', __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 34
         }
       }, _react2.default.createElement('a', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 34
         }
       }, 'portfolio')), ' '), ' ', _react2.default.createElement('li', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 34
         }
       }, _react2.default.createElement(_link2.default, { href: '/contact', __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 34
         }
       }, _react2.default.createElement('a', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 34
         }
-      }, 'contact')))))));
+      }, 'contact'))))))));
     }
   }]);
 

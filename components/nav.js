@@ -9,21 +9,22 @@ class Nav extends Component {
   }
   render () {
     return (
-      <section className="Nav">
-        <div className="header-container">
-          <nav>
+    <section className="Nav">  
+      <header className="">
+        <div className="header-container inner">
+          <nav className="">
+          
+           <Link href="/"> 
             <div className="logo">
               <img className="img" src="/../static/img/afrodesiamedia.svg" width="30" />
-              <Link href="/"> 
-                
                   <a>
                     <div>
                         <span className="white">afrodesia</span>
                         <span className="gray">media</span>
                     </div>
                   </a>
-                </Link>
               </div>
+              </Link>
 
               <ul>
                 <li><Link href='/'><a>home</a></Link></li>
@@ -34,7 +35,8 @@ class Nav extends Component {
                 </ul>  
             </nav>
         </div>
-      </section>
+      </header>
+     </section> 
     )
   }
 }
