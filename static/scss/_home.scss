@@ -4,6 +4,7 @@
     background: #bcbcbc;
     height:900px;
     background-image: url(./static/img/home-bg-afrodesiamedia.png);
+    // background-image: url(./img/home-bg-afrodesiamedia.png);
     background-position: center center;
     background-size: cover;
     width: 100%;
@@ -16,7 +17,7 @@
         margin: 0 auto;
         padding-top: 100px;
         padding-bottom: 20px;
-        color:#ccc;
+        text-shadow: 2px 2px #222;
 
     }
     h2{

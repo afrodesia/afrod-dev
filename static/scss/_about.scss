@@ -27,11 +27,15 @@
         font-family: 'Poppins', sans-serif;
     }
     .blax-box{
+        h3{
+            text-align: center;
+        }
         // border: 1px solid #333;
         background: #333;
         color:#fff;
         padding: 20px;
         padding-bottom:60px;
+        min-height: 360px;
     
     }
 }

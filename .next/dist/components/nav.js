@@ -157,7 +157,7 @@ var Nav = function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 32
         }
-      }, _react2.default.createElement(_link2.default, { href: '/getting-started', __source: {
+      }, _react2.default.createElement(_link2.default, { href: '/process', __source: {
           fileName: _jsxFileName,
           lineNumber: 32
         }
@@ -165,6 +165,20 @@ var Nav = function (_Component) {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32
+        }
+      }, 'process')), ' '), _react2.default.createElement('li', {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        }
+      }, _react2.default.createElement(_link2.default, { href: '/getting-started', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        }
+      }, _react2.default.createElement('a', {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
         }
       }, 'getting started'))), _react2.default.createElement('li', {
         __source: {

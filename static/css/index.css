@@ -1,0 +1,664 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+/* ==========================================================================
+   Responsive images and box padding
+   ========================================================================== */
+img, object {
+  display: block;
+  border: 0;
+  max-width: 100%;
+  height: auto; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-kit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*-----------------------------------*
+  $TOAST-GRID
+
+  An insane grid.
+  You'd be mad to use it.
+
+  Usage
+  =====
+
+  Assuming default values:
+
+  <div class="grid">
+    <div class="grid__col grid__col--1-of-2">
+      A half-width column.
+    </div>
+    <div class="grid__col grid__col--1-of-4 grid__col--pull-1-of-4">
+      A quarter, pulled left by its own width. You get this, right?
+    </div>
+  </div>
+
+
+  Customisation
+  =============
+
+  $toast-grid-namespace and $toast-grid-column-namespace
+  adjusts the class names for the grid. With
+  default values, grid wrappers have a class
+  of '.grid' and columns '.grid__col'.
+
+  $toast-col-groups(n) adjusts column divisions.
+  For example, $toast-col-groups(12) will produce
+  a 12-column grid. $col-groups(3,6,8)
+  will produce a 3-, 6-, and 8-column grid.
+
+  $toast-gutter-width is—you guessed it—the gutter
+  width. Accepts any unit.
+
+  That's it. Have fun.
+
+\*-----------------------------------*/
+.grid {
+  list-style: none;
+  margin-left: -30px; }
+
+.grid__col--2-of-2, .grid__col--3-of-3, .grid__col--4-of-4, .grid__col--5-of-5, .grid__col--6-of-6, .grid__col--8-of-8, .grid__col--12-of-12 {
+  width: 100%; }
+
+.grid__col--1-of-2, .grid__col--2-of-4, .grid__col--3-of-6, .grid__col--4-of-8, .grid__col--6-of-12 {
+  width: 50%; }
+
+.grid__col--1-of-3, .grid__col--2-of-6, .grid__col--4-of-12 {
+  width: 33.3333333333%; }
+
+.grid__col--2-of-3, .grid__col--4-of-6, .grid__col--8-of-12 {
+  width: 66.6666666667%; }
+
+.grid__col--1-of-4, .grid__col--2-of-8, .grid__col--3-of-12 {
+  width: 25%; }
+
+.grid__col--3-of-4, .grid__col--6-of-8, .grid__col--9-of-12 {
+  width: 75%; }
+
+.grid__col--push-2-of-2, .grid__col--push-3-of-3, .grid__col--push-4-of-4, .grid__col--push-5-of-5, .grid__col--push-6-of-6, .grid__col--push-8-of-8, .grid__col--push-12-of-12 {
+  margin-left: 100%; }
+
+.grid__col--push-1-of-2, .grid__col--push-2-of-4, .grid__col--push-3-of-6, .grid__col--push-4-of-8, .grid__col--push-6-of-12 {
+  margin-left: 50%; }
+
+.grid__col--push-1-of-3, .grid__col--push-2-of-6, .grid__col--push-4-of-12 {
+  margin-left: 33.3333333333%; }
+
+.grid__col--push-2-of-3, .grid__col--push-4-of-6, .grid__col--push-8-of-12 {
+  margin-left: 66.6666666667%; }
+
+.grid__col--push-1-of-4, .grid__col--push-2-of-8, .grid__col--push-3-of-12 {
+  margin-left: 25%; }
+
+.grid__col--push-3-of-4, .grid__col--push-6-of-8, .grid__col--push-9-of-12 {
+  margin-left: 75%; }
+
+.grid__col--pull-2-of-2, .grid__col--pull-3-of-3, .grid__col--pull-4-of-4, .grid__col--pull-5-of-5, .grid__col--pull-6-of-6, .grid__col--pull-8-of-8, .grid__col--pull-12-of-12 {
+  margin-left: -100%; }
+
+.grid__col--pull-1-of-2, .grid__col--pull-2-of-4, .grid__col--pull-3-of-6, .grid__col--pull-4-of-8, .grid__col--pull-6-of-12 {
+  margin-left: -50%; }
+
+.grid__col--pull-1-of-3, .grid__col--pull-2-of-6, .grid__col--pull-4-of-12 {
+  margin-left: -33.3333333333%; }
+
+.grid__col--pull-2-of-3, .grid__col--pull-4-of-6, .grid__col--pull-8-of-12 {
+  margin-left: -66.6666666667%; }
+
+.grid__col--pull-1-of-4, .grid__col--pull-2-of-8, .grid__col--pull-3-of-12 {
+  margin-left: -25%; }
+
+.grid__col--pull-3-of-4, .grid__col--pull-6-of-8, .grid__col--pull-9-of-12 {
+  margin-left: -75%; }
+
+.grid__col--1-of-5 {
+  width: 20%; }
+
+.grid__col--push-1-of-5 {
+  margin-left: 20%; }
+
+.grid__col--pull-1-of-5 {
+  margin-left: -20%; }
+
+.grid__col--2-of-5 {
+  width: 40%; }
+
+.grid__col--push-2-of-5 {
+  margin-left: 40%; }
+
+.grid__col--pull-2-of-5 {
+  margin-left: -40%; }
+
+.grid__col--3-of-5 {
+  width: 60%; }
+
+.grid__col--push-3-of-5 {
+  margin-left: 60%; }
+
+.grid__col--pull-3-of-5 {
+  margin-left: -60%; }
+
+.grid__col--4-of-5 {
+  width: 80%; }
+
+.grid__col--push-4-of-5 {
+  margin-left: 80%; }
+
+.grid__col--pull-4-of-5 {
+  margin-left: -80%; }
+
+.grid__col--1-of-6 {
+  width: 16.6666666667%; }
+
+.grid__col--push-1-of-6 {
+  margin-left: 16.6666666667%; }
+
+.grid__col--pull-1-of-6 {
+  margin-left: -16.6666666667%; }
+
+.grid__col--5-of-6 {
+  width: 83.3333333333%; }
+
+.grid__col--push-5-of-6 {
+  margin-left: 83.3333333333%; }
+
+.grid__col--pull-5-of-6 {
+  margin-left: -83.3333333333%; }
+
+.grid__col--1-of-8 {
+  width: 12.5%; }
+
+.grid__col--push-1-of-8 {
+  margin-left: 12.5%; }
+
+.grid__col--pull-1-of-8 {
+  margin-left: -12.5%; }
+
+.grid__col--3-of-8 {
+  width: 37.5%; }
+
+.grid__col--push-3-of-8 {
+  margin-left: 37.5%; }
+
+.grid__col--pull-3-of-8 {
+  margin-left: -37.5%; }
+
+.grid__col--5-of-8 {
+  width: 62.5%; }
+
+.grid__col--push-5-of-8 {
+  margin-left: 62.5%; }
+
+.grid__col--pull-5-of-8 {
+  margin-left: -62.5%; }
+
+.grid__col--7-of-8 {
+  width: 87.5%; }
+
+.grid__col--push-7-of-8 {
+  margin-left: 87.5%; }
+
+.grid__col--pull-7-of-8 {
+  margin-left: -87.5%; }
+
+.grid__col--1-of-12 {
+  width: 8.3333333333%; }
+
+.grid__col--push-1-of-12 {
+  margin-left: 8.3333333333%; }
+
+.grid__col--pull-1-of-12 {
+  margin-left: -8.3333333333%; }
+
+.grid__col--2-of-12 {
+  width: 16.6666666667%; }
+
+.grid__col--push-2-of-12 {
+  margin-left: 16.6666666667%; }
+
+.grid__col--pull-2-of-12 {
+  margin-left: -16.6666666667%; }
+
+.grid__col--5-of-12 {
+  width: 41.6666666667%; }
+
+.grid__col--push-5-of-12 {
+  margin-left: 41.6666666667%; }
+
+.grid__col--pull-5-of-12 {
+  margin-left: -41.6666666667%; }
+
+.grid__col--7-of-12 {
+  width: 58.3333333333%; }
+
+.grid__col--push-7-of-12 {
+  margin-left: 58.3333333333%; }
+
+.grid__col--pull-7-of-12 {
+  margin-left: -58.3333333333%; }
+
+.grid__col--10-of-12 {
+  width: 83.3333333333%; }
+
+.grid__col--push-10-of-12 {
+  margin-left: 83.3333333333%; }
+
+.grid__col--pull-10-of-12 {
+  margin-left: -83.3333333333%; }
+
+.grid__col--11-of-12 {
+  width: 91.6666666667%; }
+
+.grid__col--push-11-of-12 {
+  margin-left: 91.6666666667%; }
+
+.grid__col--pull-11-of-12 {
+  margin-left: -91.6666666667%; }
+
+.grid__col {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-right: -.25em;
+  min-height: 1px;
+  padding-left: 30px;
+  vertical-align: top; }
+  @media (max-width: 700px) {
+    .grid__col {
+      display: block;
+      margin-left: 0;
+      margin-right: 0;
+      width: auto; } }
+  @media (max-width: 700px) and (min-width: 480px) {
+    .grid__col[class*="grid__col--m-"] {
+      display: inline-block;
+      margin-right: -.24em; }
+    .grid__col.grid__col--m-1-of-2, .grid__col.grid__col--m-2-of-4 {
+      width: 50%; }
+    .grid__col.grid__col--m-1-of-3 {
+      width: 33.3333333333%; }
+    .grid__col.grid__col--m-2-of-3 {
+      width: 66.6666666667%; }
+    .grid__col.grid__col--m-1-of-4 {
+      width: 25%; }
+    .grid__col.grid__col--m-3-of-4 {
+      width: 75%; } }
+  @media (max-width: 480px) {
+    .grid__col[class*="grid__col--s-"] {
+      display: inline-block;
+      margin-right: -.24em; }
+    .grid__col.grid__col--s-1-of-2, .grid__col.grid__col--s-2-of-4 {
+      width: 50%; }
+    .grid__col.grid__col--s-1-of-3 {
+      width: 33.3333333333%; }
+    .grid__col.grid__col--s-2-of-3 {
+      width: 66.6666666667%; }
+    .grid__col.grid__col--s-1-of-4 {
+      width: 25%; }
+    .grid__col.grid__col--s-3-of-4 {
+      width: 75%; } }
+
+.grid__col--centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.grid__col--d-first {
+  float: left; }
+
+.grid__col--d-last {
+  float: right; }
+
+.grid--no-gutter {
+  margin-left: 0;
+  width: 100%; }
+  .grid--no-gutter .grid__col {
+    padding-left: 0; }
+  .grid--no-gutter .grid__col--span-all {
+    margin-left: 0;
+    width: 100%; }
+
+.grid__col--ab {
+  vertical-align: bottom; }
+
+.grid__col--am {
+  vertical-align: middle; }
+
+@font-face {
+  font-family: 'moderneregular';
+  src: url("../public/fonts/Moderne/moderne-webfont.eot");
+  src: url("../public/fonts/Moderne/moderne-webfont.eot?#iefix") format("embedded-opentype"), url("../public/fonts/Moderne/moderne-webfont.woff") format("woff"), url("../public/fonts/Moderne/moderne-webfont.ttf") format("truetype"), url("../public/fonts/Moderne/moderne-webfont.svg#moderneregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.Contact,
+.GettingStarted,
+.Portfolio,
+.Home,
+.About {
+  animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  /* Firefox */
+  -webkit-animation: fadein 1s;
+  /* Safari and Chrome */
+  -o-animation: fadein 1s;
+  /* Opera */ }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #333;
+  display: block;
+  width: 100%;
+  padding: 12px;
+  outline: none;
+  font-size: 1rem;
+  margin-top: 30px; }
+
+.label-control {
+  display: block;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 1rem; }
+
+button {
+  background-color: tomato;
+  color: #fff;
+  width: 300px; }
+
+.btn {
+  padding: 20px 100px;
+  text-align: center;
+  background: tomato;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 5px;
+  border: 1px solid tomato;
+  margin: 0 auto;
+  cursor: pointer; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+  background: #F5F5F5; }
+
+span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; }
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 3rem; }
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+  font-size: 1.9rem;
+  max-width: 55%; }
+
+a {
+  cursor: pointer; }
+
+.header-container,
+.container {
+  max-width: 90%;
+  margin: 0px auto; }
+
+.Nav {
+  background-color: #303030;
+  height: 50px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif; }
+  .Nav .label-toggle .menu-toggle {
+    display: none; }
+  .Nav nav {
+    display: block; }
+    .Nav nav .logo {
+      float: left;
+      margin-top: -2px;
+      cursor: pointer; }
+      .Nav nav .logo .img {
+        z-index: 100;
+        display: inline;
+        float: left;
+        margin: 10px 0px 0px 0px; }
+      .Nav nav .logo a {
+        text-decoration: none;
+        color: #fff;
+        letter-spacing: -1px; }
+        .Nav nav .logo a img {
+          width: 30px;
+          margin-right: 3px;
+          padding-top: 12px;
+          float: left; }
+        .Nav nav .logo a span.white {
+          color: #fff; }
+        .Nav nav .logo a span.gray {
+          color: #ADB0B2; }
+        .Nav nav .logo a div {
+          margin-top: 15px;
+          float: left; }
+    .Nav nav ul {
+      float: right; }
+      .Nav nav ul li {
+        float: left;
+        padding-top: 14px;
+        padding-left: 10px; }
+        .Nav nav ul li a {
+          padding: 7px 15px;
+          color: #fff;
+          text-decoration: none;
+          cursor: pointer;
+          font-size: 1.1rem; }
+          .Nav nav ul li a:hover {
+            background: #cfcfcf;
+            color: #333;
+            padding: 3px 15px;
+            border-radius: 60px;
+            animation: fadein 1s;
+            -moz-animation: fadein 1s;
+            /* Firefox */
+            -webkit-animation: fadein 1s;
+            /* Safari and Chrome */
+            -o-animation: fadein 1s;
+            /* Opera */ }
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    max-width: 100%; }
+  .Nav {
+    width: 100%;
+    display: block;
+    background-color: #333; }
+    .Nav .menu-toggle:checked ~ ul {
+      opacity: 1;
+      height: 100vh;
+      visibility: visible; }
+  .Nav nav ul li a {
+    display: block;
+    width: 100%; }
+    .Nav nav ul li a:hover {
+      background: #333;
+      color: #fff; }
+  .Nav nav ul li {
+    display: block;
+    width: 100%;
+    background-color: #333; }
+  .Nav .label-toggle {
+    background: linear-gradient(to bottom, #fff 0%, #fff 20%, transparent 20%, transparent 40%, #fff 40%, #fff 60%, transparent 60%, transparent 80%, #fff 80%, #fff 100%);
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 35px;
+    margin-top: 1em;
+    width: 35px; } }
+
+.afrodesia-masthead {
+  background: #bcbcbc;
+  height: 900px;
+  background-image: url(../img/home-bg-afrodesiamedia.png);
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  max-height: 800px;
+  text-align: center;
+  margin-bottom: 20px; }
+  .afrodesia-masthead h1 {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color: #ccc; }
+  .afrodesia-masthead h2 {
+    padding-bottom: 20px;
+    width: 38%; }
+
+.preamble {
+  font-family: 'Poppins', sans-serif; }
+  .preamble h2 {
+    padding-bottom: 0px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    line-height: 40px; }
+  .preamble .grey-zone {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+    background-color: #D8D8D8;
+    min-height: 460px; }
+    .preamble .grey-zone article p {
+      padding-top: 30px;
+      line-height: 46px;
+      font-size: 1.1rem; }
+    .preamble .grey-zone .icon {
+      width: 60px;
+      margin: 0 auto; }
+
+.About {
+  background: #bcbcbc;
+  font-family: 'Poppins', sans-serif;
+  background-position: center center;
+  background-size: cover;
+  min-height: 800px; }
+  .About h1 {
+    margin-top: 0px;
+    font-size: 2rem; }
+  .About .grid {
+    margin-bottom: 60px; }
+  .About article.grid__col {
+    line-height: 40px; }
+  .About h3 {
+    font-size: 1.2em;
+    padding: 30px 0px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif; }
+  .About .blax-box {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    padding-bottom: 60px; }
+
+.footer {
+  background-color: #333;
+  min-height: 200px;
+  color: #fff;
+  font-size: .7em;
+  font-weight: 500; }
+  .footer span {
+    float: right; }
+
+.paddingTop100 {
+  padding-top: 10px; }
+
+.process {
+  font-family: 'Poppins', sans-serif; }
+  .process li {
+    border-bottom: 1px solid #C3BBBB;
+    padding: 100px 0px;
+    width: 100%;
+    line-height: 40px; }
+  .process article {
+    text-align: center; }
+    .process article h3 {
+      font-size: 2.2rem;
+      font-family: 'Poppins', sans-serif;
+      padding-bottom: 30px;
+      color: #575454; }
+    .process article p {
+      font-size: 1.6rem;
+      font-family: 'Poppins', sans-serif;
+      width: 50%;
+      margin: 0px auto;
+      color: #575454; }

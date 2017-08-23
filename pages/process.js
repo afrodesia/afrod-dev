@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Layout from '../components/layout'
 
 
-export default class Portfolio extends Component {
+export default class Process extends Component {
   constructor(props){
         super()
        
@@ -18,11 +18,11 @@ export default class Portfolio extends Component {
   render () {
     return (
        <Layout>
-            <div className="Portfolio container ">
-                <h1>Portfolio</h1>
+            <div className="Process container ">
+                <h1>Process</h1>
                 <section className="grid paddingTop100">
                     
-                 
+                   
                 </section>
 
             </div>     

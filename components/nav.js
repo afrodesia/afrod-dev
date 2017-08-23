@@ -29,11 +29,15 @@ class Nav extends Component {
               <ul>
                 <li><Link href='/'><a>home</a></Link></li>
                 <li><Link href='/about'><a>about</a></Link> </li>
-                <li><Link href='/getting-started'><a>getting started</a></Link> 
-                </li>
+                <li><Link href='/process'><a>process</a></Link> </li>
+                <li><Link href='/getting-started'><a>getting started</a></Link></li>            
                 <li><Link href='/portfolio'><a>portfolio</a></Link> </li> <li><Link href='/contact'><a>contact</a></Link></li>
-                </ul>  
+                </ul>
+                
+                
             </nav>
+
+
         </div>
       </header>
      </section> 

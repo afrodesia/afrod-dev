@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 import Head from 'next/head'
 import logo from '../components/afrodesiamedia.svg'
 import clipboard from '../static/img/clipboard.svg'
-
+import Link from 'next/link'
 
 export default() =>
   <Layout
@@ -21,8 +21,8 @@ export default() =>
                     <h2 className="grid__col grid__col--3-of-5 grid__col--centered">
                         Discover what good design and practical sense makes for a better user experience.
                     </h2>
+                    <Link href='/getting-started'><a className="btn"> Check it out! </a></Link> 
 
-                    <a className="btn">Check it out! </a>
                 </div>
             </section>
 

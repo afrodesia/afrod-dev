@@ -24,43 +24,6 @@ input{
 
 
 
-// input[type="checkbox"]{
-//     background-color: red;
-// 	border: 0;
-//     font-size: 1rem;
-// 	display: inline-block;
-// 	font-size: 20px;
-// 	height: 8px;
-// 	width: 8px;  
-// }
-
-
-
-// input[type="checkbox"] + label:before{
-// 			background-color: #AD208C;
-// 			border: 0;
-// 			content: "";
-// 			display: inline-block;
-// 			font-size: 20px;
-// 			height: 8px;
-// 			width: 8px;
-// 			border-radius: 50px;
-// 			margin: -3px 10px 0 0;
-// 			vertical-align: middle;
-
-// 	} 
-
-
-// label.check{
-//     display: inline;
-//     text-transform: uppercase;
-//     font-size: 1rem;
-//     vertical-align: center;
-//     margin-right: 50px;
-    
-// }
-
-
 
 
 button{
@@ -78,16 +41,24 @@ button{
 
 
 .btn{
+    margin-top: 30px;
     padding: 20px 100px;
     text-align: center;
-    background: tomato;
+    background: #333;
+    border:2px solid #333;
     color:#fff;
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: 800;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 5px;
-    border:1px solid tomato;
+    border: 0px;
     margin: 0 auto;
     cursor: pointer;
+
+    &:hover{
+        border:2px solid #333;
+        background: #F5F5F5;
+        color:#333;
+    }
 }

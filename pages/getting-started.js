@@ -40,24 +40,13 @@ export default() =>
                     <input type="telephone" />
                     <label className="label-control">telephone</label>
                     
-                    <div className="check-block">
-                        <input type="checkbox" className="check-select"/>
-                        <label className="check">check1 </label>
-                    
+                   
 
-                        <input type="checkbox" />
-                        <label className="check">check2 </label>
-                    
-                        <input type="checkbox" className="check-select" />
-                        <label className="check">check3 </label>
+                    <div className="btn-cont">
+                        <button className="btn">
+                       Submit
+                     </button>
                     </div>
-
-
-                    <button className="btn">
-                        test
-
-                    </button>
-
                     </fieldset>
                     
                 </section>

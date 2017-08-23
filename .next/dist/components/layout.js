@@ -40,6 +40,10 @@ var _nav = require('../components/nav');
 
 var _nav2 = _interopRequireDefault(_nav);
 
+var _inquiry = require('../components/inquiry');
+
+var _inquiry2 = _interopRequireDefault(_inquiry);
+
 var _index = require('../static/scss/index.scss');
 
 var _index2 = _interopRequireDefault(_index);
@@ -47,7 +51,7 @@ var _index2 = _interopRequireDefault(_index);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _jsxFileName = '/Users/kentorry/Server/CLIENT-SERVER/CLIENT-WORK/afrodesiamedia/SERVER/afrodesiamedia-next/components/layout.js';
-// import Header from '../components/header'
+
 
 var Layout = function (_Component) {
   (0, _inherits3.default)(Layout, _Component);
@@ -70,43 +74,60 @@ var Layout = function (_Component) {
       return _react2.default.createElement('div', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 17
         }
       }, _react2.default.createElement(_head2.default, { title: title, description: description, __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 18
         }
       }, _react2.default.createElement('meta', { charSet: 'utf-8', __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 20
         }
       }), _react2.default.createElement('meta', { name: 'viewport', content: 'initial-scale=1.0, width=device-width', __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 21
+        }
+      }), _react2.default.createElement('link', { href: '/static/css/index.css', rel: 'stylesheet', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
         }
       }), _react2.default.createElement('style', { dangerouslySetInnerHTML: { __html: _index2.default }, __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 24
         }
       })), _react2.default.createElement(_nav2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 26
         }
       }), children, _react2.default.createElement('footer', { id: '', className: 'footer', __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 29
         }
       }, _react2.default.createElement('div', { className: 'container paddingTop100 grid', __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 30
+        }
+      }, _react2.default.createElement('div', { className: 'grid__col grid__col--6-of-12', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        }
+      }, _react2.default.createElement(_inquiry2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        }
+      })), _react2.default.createElement('div', { className: 'grid__col grid__col--6-of-12', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
         }
       }, _react2.default.createElement('span', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 38
         }
-      }, 'afrodesiamedia | 2017'))));
+      }, 'afrodesiamedia | 2017')))));
     }
   }]);
 

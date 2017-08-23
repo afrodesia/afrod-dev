@@ -10,7 +10,7 @@ export default() =>
         <article className="grid__col grid__col--5-of-8">
 
         	<p>
-        	i	Quite simply <span>afrodesiamedia</span> works as a small web agency
+        		Quite simply <span>afrodesiamedia</span> works as a small web agency
             centered on building web applications. We can help you
             thru all the phases of the design process.
         	</p>
@@ -22,32 +22,35 @@ export default() =>
 
       </div>
 
-      <div className="grid blax-box --no-gutter"> 
+      <div className="grid"> 
 
-         <article className="grid__col grid__col--1-of-3">
-            <div className="grid__col--centered icon">
+         <article className="grid__col grid__col--1-of-3 ">
+            <div className="grid__col--centered icon blax-box">
               <h3><span>Sketching/Wireframing</span></h3>
-             </div>
+             
               <p>- We start with generating rough ideas and elements to formulate the basic building blocks.
               </p>
+            </div>
          </article>
 
-         <article className="grid__col grid__col--1-of-3">
-            <div className="grid__col--centered icon">
+         <article className="grid__col grid__col--1-of-3 ">
+            <div className="grid__col--centered icon blax-box">
               <h3><span>Front End Developments  </span></h3>
-             </div>
+             
               <p>- This is the phase where we start fleshing out the building
                     blocks to a more concrete and solid design concept.
               </p>
+            </div>
          </article>
 
-         <article className="grid__col grid__col--1-of-3">
-            <div className="grid__col--centered icon">
+         <article className="grid__col grid__col--1-of-3 ">
+            <div className="grid__col--centered icon blax-box">
               <h3><span>Hi-Fi Mockups</span></h3>
-             </div>
+             
               <p>- This is the phase where we start fleshing out the building
                     blocks to a more concrete and solid design concept.
               </p>
+            </div>
          </article>
 
          </div>
