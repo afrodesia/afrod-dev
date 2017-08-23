@@ -21,7 +21,7 @@ app.prepare()
     return app.render(req, res, '/getting-started', req.query)
   })
 
-  server.get('/process, (req, res) => {
+  server.get('/process', (req, res) => {
     return app.render(req, res, '/process', req.query)
   })
 
