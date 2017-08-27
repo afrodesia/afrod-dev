@@ -109,7 +109,7 @@ var Layout = function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 30
         }
-      }, _react2.default.createElement('div', { className: 'grid__col grid__col--6-of-12', __source: {
+      }, _react2.default.createElement('div', { className: 'grid__col grid__col--4-of-12', __source: {
           fileName: _jsxFileName,
           lineNumber: 32
         }
@@ -118,14 +118,14 @@ var Layout = function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 33
         }
-      })), _react2.default.createElement('div', { className: 'grid__col grid__col--6-of-12', __source: {
+      })), _react2.default.createElement('div', { className: 'grid__col grid__col--8-of-12', __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 36
         }
       }, _react2.default.createElement('span', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 37
         }
       }, 'afrodesiamedia | 2017')))));
     }

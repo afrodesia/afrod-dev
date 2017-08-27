@@ -16,8 +16,6 @@ class Inquiry extends Component{
     })
   }
 
- 
-
   onSubmit = (e) => {
     e.preventDefault()
     this.setState({
@@ -30,6 +28,8 @@ class Inquiry extends Component{
   render(){
     return(
       <form className="Inquiry">
+        <h3>General Inquiry </h3>
+
          <input
          
           className="input-form" 
@@ -57,15 +57,16 @@ class Inquiry extends Component{
         <label className="label-control">
          Message
          </label>
-         <textarea rows="4" cols="50"
+         <textarea rows="4"
             className="imput-text"
             name="message" 
             type="text"
             value={this.state.message} 
             onChange={ e => this.change(e) }  
           />
-        
 
+          <button className="btn">Submit</button>
+      
       </form>
     )
   }

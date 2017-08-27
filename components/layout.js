@@ -29,18 +29,15 @@ class Layout extends Component{
         <footer id="" className="footer">
             <div className="container paddingTop100 grid">
             
-            <div className="grid__col grid__col--6-of-12">
+            <div className="grid__col grid__col--4-of-12">
             <Inquiry />
             </div>
 
-            
-            <div className="grid__col grid__col--6-of-12">
+            <div className="grid__col grid__col--8-of-12">
              <span>
                 afrodesiamedia | 2017
               </span>
             </div>
-            
-             
             </div>
         </footer>
       </div>

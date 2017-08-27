@@ -19,12 +19,9 @@ export default class Portfolio extends Component {
     return (
        <Layout>
             <div className="Portfolio container ">
-                <h1>Portfolio</h1>
-                <section className="grid paddingTop100">
-                    
-                 
-                </section>
-
+              <h1>Portfolio</h1>
+              <section className="grid paddingTop100">
+              </section>
             </div>     
        </Layout>
     )

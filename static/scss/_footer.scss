@@ -1,11 +1,17 @@
 .footer{
     background-color: #333;
     min-height: 400px;
+    padding: 40px 0px;
     display: block;
     color:#fff;
     font-size: .7em;
     font-weight: 500;
     span{
         float: right;
+    }
+
+    h3{
+        font-size: 1.3em;
+        letter-spacing: 1px;
     }
 }

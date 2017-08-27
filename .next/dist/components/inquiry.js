@@ -72,9 +72,14 @@ var Inquiry = function (_Component) {
 
       return _react2.default.createElement('form', { className: 'Inquiry', __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 30
         }
-      }, _react2.default.createElement('input', {
+      }, _react2.default.createElement('h3', {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        }
+      }, 'General Inquiry '), _react2.default.createElement('input', {
 
         className: 'input-form',
         name: 'name',
@@ -110,7 +115,7 @@ var Inquiry = function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 57
         }
-      }, 'Message'), _react2.default.createElement('textarea', { rows: '4', cols: '50',
+      }, 'Message'), _react2.default.createElement('textarea', { rows: '4',
         className: 'imput-text',
         name: 'message',
         type: 'text',
@@ -122,7 +127,11 @@ var Inquiry = function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 60
         }
-      }));
+      }), _react2.default.createElement('button', { className: 'btn', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68
+        }
+      }, 'Submit'));
     }
   }]);
 
