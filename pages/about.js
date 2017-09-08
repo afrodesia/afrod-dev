@@ -1,13 +1,12 @@
 import React from 'react'
-
 import Layout from '../components/layout'
 
 export default() =>
   <Layout>
-         <div className="About">
+      <div className="About">
     	 <section className="container paddingTop100">
        <div className="grid">
-        <article className="grid__col grid__col--5-of-8">
+        <article className="grid__col  grid__col--5-of-8">
 
         	<p>
         		Quite simply <span>afrodesiamedia</span> works as a small web agency

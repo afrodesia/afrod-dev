@@ -4,7 +4,6 @@ import Layout from '../components/layout'
 export default() =>
   <Layout>
           <div className="GettingStarted container">
-
                 <section className="grid paddingTop10">
                      
                     <fieldset className="grid__col grid__col--3-of-5">
